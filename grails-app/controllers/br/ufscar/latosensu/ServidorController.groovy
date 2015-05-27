@@ -6,6 +6,6 @@ class ServidorController extends RestfulController {
 
     static responseFormats = ['json', 'xml']
     ServidorController() {
-        super(Servidor, true)
+        super(Servidor)
     }
 }
